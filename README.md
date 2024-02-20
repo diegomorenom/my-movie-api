@@ -6,7 +6,7 @@ To run the model, follow the next instructions on the shell:
 git clone
 cd my-movie-api
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-PS C:\Users\diego\OneDrive\Documentos\SoftwareProjects\my-movie-api> .\venv\Scripts\activate
+.\venv\Scripts\activate
 
 uvicorn main:app
 uvicorn main:app --reload 
